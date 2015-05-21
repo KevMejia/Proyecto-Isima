@@ -5,25 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
 
-    <link href="~/Content/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="~/Content/css/Site.css" rel="stylesheet" />
-    <script src="~/Content/js/modernizr-2.8.3.js"></script>
-
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
 </head>
+
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
                 @Html.ActionLink("Proyecto Isima", "Index", "Home", null, new { @class = "navbar-brand" })
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="collapse navbar-collapse" id="nav-collapse">
                 <ul class="nav navbar-nav">
-                    <li>Aquí se van a mostrar más elementos</li>
+                    <li><a href="#">Aquí se mostrarán más elementos</a></li>
                 </ul>
             </div>
         </div>
@@ -35,8 +35,8 @@
            @ViewBag.Title - Kevin Mejia Garcia
         </footer>
     </div>
-    <script src="~/Content/js/bootstrap.min.js"></script>
-    <script src="~/Content/js/jquery-2.1.4.min.js"></script>
+    <script src="~/Scripts/jquery-2.1.4.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
     @RenderSection("scripts", required: false)
 </body>
 </html>
