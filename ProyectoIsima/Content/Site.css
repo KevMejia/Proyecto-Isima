@@ -17,3 +17,24 @@
 .elementos{
     color:white;
 }
+
+#contenido
+{
+    margin-top: 70px;
+}
+ /*
+.table tr:first-child
+{
+    background: rgba(200, 200, 200, 0.9) !important;
+}
+*/
+
+.logo
+{
+    margin-top:-11px;
+    max-width:90px;
+    max-height:42px;
+    width:auto;
+    height:auto;
+}
+    

@@ -1,9 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
+Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoIsima", "ProyectoIsima\ProyectoIsima.csproj", "{554CD6CB-5281-40AE-9807-6F5FBD514329}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoIsima", "ProyectoIsima\ProyectoIsima.csproj", "{9C7672E7-412D-424D-9C32-A2C334009C41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{554CD6CB-5281-40AE-9807-6F5FBD514329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{554CD6CB-5281-40AE-9807-6F5FBD514329}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{554CD6CB-5281-40AE-9807-6F5FBD514329}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{554CD6CB-5281-40AE-9807-6F5FBD514329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C7672E7-412D-424D-9C32-A2C334009C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C7672E7-412D-424D-9C32-A2C334009C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C7672E7-412D-424D-9C32-A2C334009C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C7672E7-412D-424D-9C32-A2C334009C41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
